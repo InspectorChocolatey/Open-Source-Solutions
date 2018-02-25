@@ -17,6 +17,9 @@ apt --fix-broken install;
 # try again: install synaptic:
 apt-get install synaptic -y ;
 
+# In synaptic search: java
+
+#///////////////////NOT here yet///////////////////////////#
 function installJDK9()
 {
 	srcs="/etc/apt/sources.list";
