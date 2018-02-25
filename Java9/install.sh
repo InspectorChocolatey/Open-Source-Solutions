@@ -8,10 +8,11 @@ wget -q -O - https://archive.kali.org/archive-key.asc | apt-key add
 # update system:
 apt-get update -y;
 
-#install synaptic:
+# install synaptic:
 apt-get install synaptic -y ;
 
-
+# repairs:
+apt --fix-broken install;
 
 function installJDK9()
 {
