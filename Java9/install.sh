@@ -18,8 +18,23 @@ apt --fix-broken install;
 apt-get install synaptic -y ;
 
 # In synaptic search: java
+# select the following four packages:
 
-#///////////////////NOT here yet///////////////////////////#
+[ ] openjdk-9-jdk
+[ ] openjdk-9-jdk-headless
+[ ] openjdk-9-jre
+[ ] openjdk-9-jre-headless
+
+# click the gear button to apply the installation:
+
+cd "/usr/bin";
+jshell
+
+# ~DONE: Woot Woot!
+#/////////////////////////////////////////////////////////////////
+#///////////Everything Below NOT needed anymore//////////////////
+#///////////////////////////////////////////////////////////////
+
 function installJDK9()
 {
 	srcs="/etc/apt/sources.list";
