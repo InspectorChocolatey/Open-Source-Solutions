@@ -1,3 +1,6 @@
+# *Is chocolatey obsolete?*
+    https://developer.telerik.com/featured/windows-10-whats-developers/
+
 # *Mounting file system & changing root password:*
     https://pve.proxmox.com/wiki/Root_Password_Reset
 
