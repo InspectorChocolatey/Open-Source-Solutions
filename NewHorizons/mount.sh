@@ -9,20 +9,20 @@ fdisk -l; # find the usb block name of your device...
 
 
 # Create a mount point....
-mkdir "/media/usb-drive" -v; 
+mkdir "/media/usb-drive/" -v; 
 
 # Mount the USB drive:
-mount "/dev/sbd1" "media/usb-drive/"
+mount "/dev/sbd1/" "/media/usb-drive/"
 
 # Check to make sure that the mount worked with the following command:
 mount | grep "/dev/sbd1";
 
 # Access your USB device: Access your files on your usb drive by navigating to the point where everything was mounted:
-cd "/media/usb";
+cd "/media/usb/";
 ls;
 
 # Unmount the USB drive:
-umount "/media/usb-drive";
+umount "/media/usb-drive/";
 
 # Making the mount permanent...
 # Determine the UUID belonging to the USB partition that you wish to mount:
