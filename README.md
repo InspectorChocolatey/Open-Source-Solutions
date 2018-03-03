@@ -7,3 +7,6 @@
 
 # *OpenVPN:*
     https://github.com/Nyr/openvpn-install
+    
+# *Custom ISO for kali (with silent installers)*:
+    https://www.cybrary.it/0p3n/create-kali-linux-iso/
