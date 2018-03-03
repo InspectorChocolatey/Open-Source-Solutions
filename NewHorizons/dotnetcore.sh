@@ -16,6 +16,16 @@ apt-get update -y;
 apt-get install wine -y;
 apt-get install winetricks wine32 -y;
 
+
+
+
+dpkg --add-architecture i386 && apt-get update &&
+apt-get install wine32
+
+
+# Make sure that windows 7 is selected and click OK:
+winecfg     # threw an error message saying todo: (the line above) 
+
 ##############################
  #<Install dotnet framework>#
 ##############################
