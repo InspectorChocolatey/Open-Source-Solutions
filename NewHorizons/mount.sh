@@ -1,6 +1,6 @@
 #!/bin/bash
 # Making a permanent mount [~what about the partition(s)?]
-
+# Reference: https://linuxconfig.org/howto-mount-usb-drive-in-linux
 cd ~/
 
 fdisk -l; # find the usb block name of your device...
