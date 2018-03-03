@@ -1,3 +1,6 @@
+# *Get started with dotNET in minutes:*
+    https://www.microsoft.com/net/learn/get-started/windows
+
 # *Is chocolatey obsolete?*
     https://developer.telerik.com/featured/windows-10-whats-developers/
 
