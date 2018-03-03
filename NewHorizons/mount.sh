@@ -25,7 +25,12 @@ cd "/media/usb/";
 ls;
 
 # Unmount the USB drive:
-umount "/media/usb-drive/";
+# umount "/media/usb-drive/";
+umount "/lib/live/mount/medium"
+# Generates error:
+# umount: /lib/live/mount/medium: target is busy
+#        (In some cases useful info about processes that
+#         use the device is found by lsof(8) or fuser(1).)
 
 # Making the mount permanent...
 # Determine the UUID belonging to the USB partition that you wish to mount:
