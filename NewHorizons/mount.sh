@@ -13,6 +13,9 @@ mkdir "/media/usb-drive/" -v;
 
 # Mount the USB drive:
 mount "/dev/sbd1" "/media/usb-drive/"
+# Generates error:
+# mount: /dev/sdb1 is already mounted or /media/usb-drive busy
+#       /dev/sdb1 is already mounted on /lib/live/mount/medium
 
 # Check to make sure that the mount worked with the following command:
 mount | grep "/dev/sdb1";
