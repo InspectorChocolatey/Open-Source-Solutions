@@ -20,7 +20,7 @@ apt-get install winetricks wine32 -y;
 
 
 dpkg --add-architecture i386 && apt-get update &&
-apt-get install wine32
+apt-get install wine32 -Y;
 
 
 # Make sure that windows 7 is selected and click OK:
