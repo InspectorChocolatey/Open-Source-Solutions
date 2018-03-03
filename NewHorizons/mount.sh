@@ -9,7 +9,7 @@ fdisk -l; # find the usb block name of your device...
 
 
 # Create a mount point....
-mkdir "media/usb-drive" -v; 
+mkdir "/media/usb-drive" -v; 
 
 # Mount the USB drive:
 mount "/dev/sbd1" "media/usb-drive/"
