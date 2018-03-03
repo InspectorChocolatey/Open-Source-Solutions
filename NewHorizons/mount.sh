@@ -15,7 +15,7 @@ mkdir "/media/usb-drive/" -v;
 mount "/dev/sbd1/" "/media/usb-drive/"
 
 # Check to make sure that the mount worked with the following command:
-mount | grep "/dev/sbd1";
+mount | grep "/dev/sdb1";
 
 # Access your USB device: Access your files on your usb drive by navigating to the point where everything was mounted:
 cd "/media/usb/";
