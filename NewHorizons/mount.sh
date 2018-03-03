@@ -12,7 +12,7 @@ fdisk -l; # find the usb block name of your device...
 mkdir "/media/usb-drive/" -v; 
 
 # Mount the USB drive:
-mount "/dev/sbd1/" "/media/usb-drive/"
+mount "/dev/sbd1" "/media/usb-drive/"
 
 # Check to make sure that the mount worked with the following command:
 mount | grep "/dev/sdb1";
