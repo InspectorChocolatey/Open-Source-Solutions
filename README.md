@@ -1,3 +1,6 @@
+# *USB drives:*
+    https://unix.stackexchange.com/questions/53837/live-usb-how-to-access-usb-drive-that-linux-booted-from
+
 # *Get started with dotNET in minutes:*
     https://www.microsoft.com/net/learn/get-started/windows
 
