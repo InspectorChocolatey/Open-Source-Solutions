@@ -32,3 +32,7 @@ function sublime()
 	./sublime_text;
 	cd "$current";
 }
+
+download;
+install;
+sublime;
