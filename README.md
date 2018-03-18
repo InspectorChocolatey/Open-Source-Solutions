@@ -1,3 +1,6 @@
+# *Win32 API Documentation:*
+    https://stackoverflow.com/questions/17667551/user32-and-kernel-method-list-for-c-sharp
+
 # *USB drives:*
     https://unix.stackexchange.com/questions/53837/live-usb-how-to-access-usb-drive-that-linux-booted-from
 
