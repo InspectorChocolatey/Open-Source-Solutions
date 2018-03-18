@@ -23,4 +23,4 @@ tar -xf "$file";
 
 # make it so that you can run toor browser as root (as seen in the video:)
 cd "/root/Downloads/tor-browser_en-US"
-./start-toor-browser
+./start-tor-browser.desktop
