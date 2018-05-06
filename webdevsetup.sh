@@ -38,6 +38,9 @@ git clone "$url";
 url="https://github.com/InspectorChocolatey/Angular";
 git clone "$url";
 
+url="https://github.com/InspectorChocolatey/jQuery";
+git clone "$url";
+
 #//~~~~~~~~~~~~~~~~modules~~~~~~~~~~~~~~~~~~~~//
 
 dir="php/phpmyadmin/sublime";
