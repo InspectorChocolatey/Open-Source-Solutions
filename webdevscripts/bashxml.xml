@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+	<user>
+		<name>bob</name>
+		<uid>1</uid>
+	</user>
+	<user>
+		<name>joe</name>
+		<uid>2</uid>
+	</user>
+	<user>
+		<name>jack</name>
+		<uid>3</uid>
+	</user>
+	<user>
+		<name>john</name>
+		<uid>4</uid>
+	</user>
+</users>
