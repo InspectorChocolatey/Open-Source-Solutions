@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	This provides a working example of reading xml element attributes.
+-->
+<people>
+	<person id="1">
+		<firstname>John</firstname>
+		<lastname>Doe</lastname>
+	</person>
+	<person id="2">
+		<firstname>Jim</firstname>
+		<lastname>Smith</lastname>
+	</person>
+</people>
