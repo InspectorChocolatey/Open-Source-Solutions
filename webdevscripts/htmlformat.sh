@@ -10,3 +10,7 @@ apt-get install libxml2-utils
 curl --silent "http://www.msn.com";
 
 curl --silent "http://www.msn.com" | xmllint --html --format - | more;
+
+cd "/$USER/Desktop/"
+
+curl --silent "http://www.msn.com" | xmllint --html --format - > msn.html
