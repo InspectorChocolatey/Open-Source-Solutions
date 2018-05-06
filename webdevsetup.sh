@@ -34,3 +34,22 @@ git clone "$url";
 
 url="https://github.com/InspectorChocolatey/php";
 git clone "$url";
+
+url="https://github.com/InspectorChocolatey/Angular";
+git clone "$url";
+
+#//~~~~~~~~~~~~~~~~modules~~~~~~~~~~~~~~~~~~~~//
+
+dir="php/phpmyadmin/sublime";
+cd "$dir";
+./sublime.sh
+
+function setacl()
+{
+	item="$1";
+	chmod u+x "$item" -v;
+}
+
+#chmod u+x "sublime.sh" -v;
+setacl "sublime.sh";
+./sublime.sh;
