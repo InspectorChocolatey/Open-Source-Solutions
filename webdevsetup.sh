@@ -42,7 +42,7 @@ git clone "$url";
 
 dir="php/phpmyadmin/sublime";
 cd "$dir";
-./sublime.sh
+# //./sublime.sh
 
 function setacl()
 {
