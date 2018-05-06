@@ -23,6 +23,9 @@ java wamp server installation
 root="/$USER/Desktop";
 cd "$root";
 
+url="https://github.com/InspectorChocolatey/Open-Source-Solutions";
+git clone "$url";
+
 url="https://github.com/InspectorChocolatey/Xml";
 git clone "$url";
 
