@@ -1,7 +1,19 @@
 ############################
  #<Open Source Solutions>#
 ############################
+#!/bin/bash
 
+# pre-requisites:
+# A.) fix for invalid signature error with apt-get:
+wget -q -O - https://archive.kali.org/archive-key.asc  | apt-key add
+
+apt-get update;
+
+# install xml lint
+apt-get install libxml2-utils
+
+
+: '
 [] sublime
 [] codeblocks
 [] php stack....
@@ -17,7 +29,7 @@ java wamp server installation
 [ ] Connect to Microsoft SQLServer;
 [ ] Implement PHP;
 [ ] Read and Write From XML;
-
+'
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 root="/$USER/Desktop";
@@ -56,10 +68,9 @@ function setacl()
 setacl "sublime.sh";
 ./sublime.sh;
 
-#https://unix.stackexchange.com/questions/421985/invalid-signature-when-trying-to-apt-get-update-on-kali
-wget -q -O - https://archive.kali.org/archive-key.asc  | apt-key add
 
-apt-get update;
+: '
+references:
+    A) https://unix.stackexchange.com/questions/421985/invalid-signature-when-trying-to-apt-get-update-on-kali
+'
 
-# install xml lint
-apt-get install libxml2-utils
