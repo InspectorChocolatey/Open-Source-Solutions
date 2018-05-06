@@ -52,3 +52,11 @@ function setacl()
 
 setacl "sublime.sh";
 ./sublime.sh;
+
+#https://unix.stackexchange.com/questions/421985/invalid-signature-when-trying-to-apt-get-update-on-kali
+wget -q -O - https://archive.kali.org/archive-key.asc  | apt-key add
+
+apt-get update;
+
+# install xml lint
+apt-get install libxml2-utils
