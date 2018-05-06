@@ -22,12 +22,9 @@ java wamp server installation
 
 root="/$USER/Desktop";
 cd "$root";
-#dir="OpenSourceWeb";
-#mkdir "$dir" -v;
-#cd "$dir";
+
 url="https://github.com/InspectorChocolatey/Xml";
 git clone "$url";
-
 
 url="https://github.com/InspectorChocolatey/Java";
 git clone "$url";
@@ -53,6 +50,5 @@ function setacl()
 	chmod u+x "$item" -v;
 }
 
-#chmod u+x "sublime.sh" -v;
 setacl "sublime.sh";
 ./sublime.sh;
