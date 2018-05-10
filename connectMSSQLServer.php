@@ -9,7 +9,7 @@
 $server = 'KALLESPC\SQLEXPRESS';
 
 // Connect to MSSQL
-$link = mssql_connect($server, 'sa', 'dbs');
+$link = mssql_connect($server, 'myUsername', 'myPassword');
 
 if (!$link) 
 {
